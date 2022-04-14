@@ -1,0 +1,20 @@
+{
+  "name": "rps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rps.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sroberts32/rock-paper-scissors.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sroberts32/rock-paper-scissors/issues"
+  },
+  "homepage": "https://github.com/sroberts32/rock-paper-scissors#readme"
+}
