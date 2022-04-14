@@ -109,5 +109,5 @@ function winnerAndNew() {
 
 winnerAndNew();
 
-// module.exports = [userHand,computerHand];
+module.exports = [userHand,computerHand];
 // module.exports = hands;
