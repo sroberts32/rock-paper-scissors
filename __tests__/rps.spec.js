@@ -1,4 +1,4 @@
-const players = require("../rps");
+// const players = require("../rps");
 // const options = require("../rps");
 
 
@@ -21,7 +21,7 @@ describe("words", () => {
 
     //   -  'toHaveLength()'
     //   test('number of options', () => {
-    //     let inputHands = options.hands;
+    //     let inputHands = ["rock", "paper", "scissors"];
     //     expect(inputHands).toHaveLength(3);
     //    });
 
@@ -35,18 +35,21 @@ describe("words", () => {
 
 
     // -  'toHaveBeenCalled()'
-    // test('user and computer has names', () => {
+    // test('user has name', () => {
     //    let user = players[0].name;
     //    expect(user).tohavebeencalled("User");
     // });
 
 
     // -  'toHaveReturned()'
-    // test('returns hand', () => {
-    //     const myHand = players.getHand.fn(() => true);
-    //     getHand();
-    //     expect(myHand).toHaveReturned();
-    //   });
+    test('returns hand', () => {
+        function getHand() {
+            let randomNumber = parseInt(Math.random() * 10) % 3;
+            return hands[randomNumber];
+        expect(myHand).toHaveReturned(hands[randomNumber]);
+      });
+
+
 
 
 })
